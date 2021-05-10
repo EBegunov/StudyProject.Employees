@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyProject.Employees.Web", "StudyProject.Employees.Web.csproj", "{FA5EC627-56A0-40F4-A060-E8398B3A0A56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyProject.Employees.Web", "StudyProject.Employees.Web.csproj", "{FA5EC627-56A0-40F4-A060-E8398B3A0A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyProject.Employees.Models", "..\StudyProject.Employees.Models\StudyProject.Employees.Models.csproj", "{CDA0D43E-D6FB-487B-B221-626BBC2A90CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyProject.Employees.Models", "..\StudyProject.Employees.Models\StudyProject.Employees.Models.csproj", "{CDA0D43E-D6FB-487B-B221-626BBC2A90CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyProject.Employees.Services", "..\StudyProject.Employees.Services\StudyProject.Employees.Services.csproj", "{CA31A701-8449-41B6-B794-2E5D9CDCB444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyProject.Employees.Services", "..\StudyProject.Employees.Services\StudyProject.Employees.Services.csproj", "{CA31A701-8449-41B6-B794-2E5D9CDCB444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -44,5 +44,25 @@ namespace StudyProject.Employees.Servises
         {
             return _employeeList;
         }
+
+        public Employee GetEmployee(int id)
+        {
+            return _employeeList.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Employee Update(Employee updatedEmployee)
+        {
+            Employee employee = _employeeList.FirstOrDefault(x => x.Id == updatedEmployee.Id);
+
+            if (employee != null)
+            {
+                employee.Name = updatedEmployee.Name;
+                employee.Email = updatedEmployee.Email;
+                employee.Department = updatedEmployee.Department;
+                employee.PhotoPath = updatedEmployee.PhotoPath;
+            }
+
+            return employee;
+        }
     }
 }
